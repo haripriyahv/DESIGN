@@ -1,0 +1,241 @@
+/* ____________________________________first SLIDE______________________________________________________ */
+.head{
+    background-color: rgb(92, 92, 92);
+    height: 63vh;
+}
+  
+.welcm{
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: black;
+}
+.button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* __________________________________________second SLIDE______________________________________________________ */
+
+.head1{
+    background-color: rgb(248, 255, 255);
+    height: 55vh;
+}
+.welcm1{
+    font-weight: bold;
+    color: rgb(43, 42, 42);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.text1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* __________________________________________third SLIDE______________________________________________________ */
+
+.head2{
+    background-color: rgb(61, 61, 61);
+    height: 70vh;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.card{
+    margin: 40px;
+}
+img{
+    padding: 7px;
+}
+.welcm2{
+    font-size: 30px;
+}
+.text3{
+    font-size: 30px;
+}
+
+
+/* __________________________________________four SLIDE______________________________________________________ */
+
+.head3{
+    background-color: rgb(41, 152, 226);
+    height: 70vh;
+}
+
+.head4{
+    background-color: rgb(72, 72, 73);
+    height: 70vh;
+}
+
+.text4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+
+/* ______________________________________________media QUERY_______________________________________________________ */
+
+@media screen and (max-width:1326px) {
+    .head{
+        height: 100vh;
+    }
+    .head1{
+        height: 80vh;
+    }
+    .head2{
+        height: 100vh;
+    }
+    .head3{
+        height:90vh
+    }
+    .head4{
+        height:90vh
+    }
+
+}
+
+@media screen and (max-width:1145px) {
+    .head{
+        height: 100vh;
+    }
+    .head1{
+        height: 80vh;
+    }
+    .head2{
+        height: 100vh;
+    }
+    .head3{
+        height:90vh
+    }
+    .head4{
+        height:90vh
+    }
+}
+
+@media screen and (max-width:912px) {
+    .head{
+        height: 35vh;
+    }
+    .head1{
+        height: 30vh;
+    }
+    .head2{
+        height: 30vh;
+    }
+    .head3{
+        height:40vh
+    }
+    .head4{
+        height:40vh
+    }
+}
+
+@media screen and (max-width:780px) {
+    .head{
+        height: 80vh;
+    }
+    .head1{
+        height: 80vh;
+    }
+    .head3{
+        height:110vh
+    }
+    .head4{
+        height:110vh
+    }
+}
+
+@media screen and (max-width:580px) {
+    .head{
+        height: 90vh;
+    }
+    .head1{
+        height: 90vh;
+    }
+    .head3{
+        height:120vh
+    }
+    .head4{
+        height:120vh
+    }
+}
+
+@media screen and (max-width:412px) {
+    .head{
+        height: 90vh;
+    }
+    .head1{
+        height: 90vh;
+    }
+    .head2{
+        height: 150vh;
+    }
+    .head3{
+        height:120vh
+    }
+    .head4{
+        height:120vh
+    }
+}
+@media screen and (max-width:360px) {
+    .head{
+        height: 90vh;
+    }
+    .head1{
+        height: 90vh;
+    }
+    .head2{
+        height: 200vh;
+    }
+    .head3{
+        height:100vh
+    }
+    .head4{
+        height:100vh
+    }
+
+}
+@media screen and (max-width:280px) {
+    
+    
+    .head{/*1st slide   &   4th slide */
+        height: 150vh;
+    }
+   .head1{ /*2nd slide  */
+        height: 90vh;
+    }
+    .head2{/*3rd slide*/
+        height: 200vh;
+    }
+    .head3{/*last slide*/
+        height:100vh
+    }
+    .head4{
+        height:100vh
+    }
+    .welcm1{
+        font-size: 30px;
+    }
+
+
+
+}
+
+
